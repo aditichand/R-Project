@@ -58,15 +58,15 @@ We used the following 3 date sets from Kaggle: S&P500 Index, S&P500 Companies, a
 
 ### S&P500 Companies
 This table holds the basic information of all the companies that are listed on the S&P500 index. It holds 498 observations of 16 variables.<br>
-<img width="800" alt="image" src="https://github.com/aditichand/R-Project/assets/61296787/7fce8da3-b3d6-4e5e-8b26-081b9490f2c9">
+<img width="700" alt="image" src="https://github.com/aditichand/R-Project/assets/61296787/7fce8da3-b3d6-4e5e-8b26-081b9490f2c9">
 
 ### S&P500 Stocks
 This table holds the OHCL values for the past 10 years on a daily basis for the 500 Stocks involved in the S&P500 index. It consists of 1561965 observations of 8 variables.<br>
-<img width="800" alt="image" src="https://github.com/aditichand/R-Project/assets/61296787/16569276-f5e6-4f05-8b34-e14d269551f7">
+<img width="700" alt="image" src="https://github.com/aditichand/R-Project/assets/61296787/16569276-f5e6-4f05-8b34-e14d269551f7">
 
 ### S&P500 Index
 This table tracks the index value of each working day for the last 10 years. It holds 2517 observation of 2 variables.<br>
-<img width="800" alt="image" src="https://github.com/aditichand/R-Project/assets/61296787/154ca903-e84d-4447-93ba-1688dd11de00">
+<img width="700" alt="image" src="https://github.com/aditichand/R-Project/assets/61296787/154ca903-e84d-4447-93ba-1688dd11de00">
 
 ### Challenges
 •	There is no single goal or analysis for a clustering problem and requires creativity<br>
