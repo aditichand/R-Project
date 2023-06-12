@@ -5,17 +5,17 @@
 # Table of Contents
 
 * [Project Description](https://github.com/aditichand/R-Project/blob/main/README.md#project-description)
-*     [Problem Statement](https://github.com/aditichand/R-Project/blob/main/README.md#problem-statement)
-*     [Project Details](https://github.com/aditichand/R-Project/blob/main/README.md#project-details)
-*     [The S&P 500 Stock Index](https://github.com/aditichand/R-Project/blob/main/README.md#the-sp-500-stock-index)
+     * [Problem Statement](https://github.com/aditichand/R-Project/blob/main/README.md#problem-statement)
+     * [Project Details](https://github.com/aditichand/R-Project/blob/main/README.md#project-details)
+     * [The S&P 500 Stock Index](https://github.com/aditichand/R-Project/blob/main/README.md#the-sp-500-stock-index)
 * [Data Description](https://github.com/aditichand/R-Project/blob/main/README.md#data-description)	
-*     [S&P 500 Companies](https://github.com/aditichand/R-Project/blob/main/README.md#sp500-companies)
-*     [S&P 500 Stocks](https://github.com/aditichand/R-Project/blob/main/README.md#sp500-stocks)
-*     [S&P 500 Index](https://github.com/aditichand/R-Project/blob/main/README.md#sp500-index)
-*     [Challenges](https://github.com/aditichand/R-Project/blob/main/README.md#challenges)
+     * [S&P 500 Companies](https://github.com/aditichand/R-Project/blob/main/README.md#sp500-companies)
+     * [S&P 500 Stocks](https://github.com/aditichand/R-Project/blob/main/README.md#sp500-stocks)
+     * [S&P 500 Index](https://github.com/aditichand/R-Project/blob/main/README.md#sp500-index)
+     * [Challenges](https://github.com/aditichand/R-Project/blob/main/README.md#challenges)
 * [Analysis and Conclusion](https://github.com/aditichand/R-Project/blob/main/README.md#analysis-and-conclusions)
-*     [K Means Clustering](https://github.com/aditichand/R-Project/blob/main/README.md#k-means-clustering)
-*     [K Means Clustering Summary Statistics](https://github.com/aditichand/R-Project/blob/main/README.md#k-means-clustering-summary-statistics)
+     * [K Means Clustering](https://github.com/aditichand/R-Project/blob/main/README.md#k-means-clustering)
+     * [K Means Clustering Summary Statistics](https://github.com/aditichand/R-Project/blob/main/README.md#k-means-clustering-summary-statistics)
 * [Back Testing Results](https://github.com/aditichand/R-Project/blob/main/README.md#back-testing-results)
 
 ## Project description 
@@ -81,16 +81,16 @@ This table tracks the index value of each working day for the last 10 years. It 
 ### K-Means Clustering
 The following results depict the optimal value for choosing K value using a spree plot and the clusters convex formed after choosing K =4. The stock symbols are used to represent its relative position in the cluster.
 
-<img width="600" alt="image" src="https://github.com/aditichand/R-Project/assets/61296787/05bfe3d4-1d5b-43d1-bf2e-27e157b56443">
-<img width="600" alt="image" src="https://github.com/aditichand/R-Project/assets/61296787/fa517aa0-4e72-4e31-93f1-975851016fc5">
+<img width="500" alt="image" src="https://github.com/aditichand/R-Project/assets/61296787/05bfe3d4-1d5b-43d1-bf2e-27e157b56443">
+<img width="500" alt="image" src="https://github.com/aditichand/R-Project/assets/61296787/fa517aa0-4e72-4e31-93f1-975851016fc5">
 
 ### K-Means Clustering Summary Statistics
 Post K- Means clustering, Cluster wise distribution of Annualized returns, Annualized Volatility, Sharpe ratio and Beta were plotted. It can be observed that there is a significant difference in at least two or more clusters both in terms of mean value and standard deviation.
 
-<img width="600" alt="image" src="https://github.com/aditichand/R-Project/assets/61296787/d2911c78-4a06-42ca-a556-21ffd7d8c028">
-<img width="600" alt="image" src="https://github.com/aditichand/R-Project/assets/61296787/9ae8ff6f-9ea9-48b0-8f60-46d1566b0ab7"><br>
-<img width="600" alt="image" src="https://github.com/aditichand/R-Project/assets/61296787/cc9f13d8-ca0e-455a-8f68-5f6ccbc99d4a">
-<img width="600" alt="image" src="https://github.com/aditichand/R-Project/assets/61296787/9bd3cd5a-e1f7-49ca-93da-ee17387dc7c0"><br>
+<img width="500" alt="image" src="https://github.com/aditichand/R-Project/assets/61296787/d2911c78-4a06-42ca-a556-21ffd7d8c028">
+<img width="500" alt="image" src="https://github.com/aditichand/R-Project/assets/61296787/9ae8ff6f-9ea9-48b0-8f60-46d1566b0ab7"><br>
+<img width="500" alt="image" src="https://github.com/aditichand/R-Project/assets/61296787/cc9f13d8-ca0e-455a-8f68-5f6ccbc99d4a">
+<img width="500" alt="image" src="https://github.com/aditichand/R-Project/assets/61296787/9bd3cd5a-e1f7-49ca-93da-ee17387dc7c0"><br>
 
 
 <img width="800" alt="image" src="https://github.com/aditichand/R-Project/assets/61296787/a63aeb96-5754-4622-850f-1c719e30383a">
