@@ -4,6 +4,20 @@
 
 # Table of Contents
 
+* [Project Description](https://github.com/aditichand/R-Project/blob/main/README.md#project-description)
+*     [Problem Statement](https://github.com/aditichand/R-Project/blob/main/README.md#problem-statement)
+*     [Project Details](https://github.com/aditichand/R-Project/blob/main/README.md#project-details)
+*     [The S&P 500 Stock Index](https://github.com/aditichand/R-Project/blob/main/README.md#the-sp-500-stock-index)
+* [Data Description](https://github.com/aditichand/R-Project/blob/main/README.md#data-description)	
+*     [S&P 500 Companies](https://github.com/aditichand/R-Project/blob/main/README.md#sp500-companies)
+*     [S&P 500 Stocks](https://github.com/aditichand/R-Project/blob/main/README.md#sp500-stocks)
+*     [S&P 500 Index](https://github.com/aditichand/R-Project/blob/main/README.md#sp500-index)
+*     [Challenges](https://github.com/aditichand/R-Project/blob/main/README.md#challenges)
+* [Analysis and Conclusion](https://github.com/aditichand/R-Project/blob/main/README.md#analysis-and-conclusions)
+*     [K Means Clustering](https://github.com/aditichand/R-Project/blob/main/README.md#k-means-clustering)
+*     [K Means Clustering Summary Statistics](https://github.com/aditichand/R-Project/blob/main/README.md#k-means-clustering-summary-statistics)
+* [Back Testing Results](https://github.com/aditichand/R-Project/blob/main/README.md#back-testing-results)
+
 ## Project description 
 ### Problem Statement
 The aim of the project is to create a diversified portfolio of stocks using clustering analysis and back test its performance against the historical data of a stock index. For this we look at the S&P500 index, that is deemed to be the most accurate quantifier of the US economy. S&P500 is the comparable standard for many funds in the marketplace.
@@ -31,11 +45,11 @@ A stock market index tracks the performance of a group of stocks or assets. This
 
 Indexes are usually market-weighted or price-weighted. The S&P 500 Index is a market-weighted index. Therefore, every stock in the index is represented in proportion to its total market capitalization. In other words, if the total market value of all 500 companies in the S&P 500 drops by 10%, the value of the index also drops by 10%. A comparison of the three major stock indexes shows why the S&P 500 is the best indicator of the whole stock market and is chosen for the creation of our portfolio.<br>
 
-<img width="865" alt="image" src="https://github.com/aditichand/R-Project/assets/61296787/fec4d015-1b53-4024-91ce-bfdd71b4e930">
+<img width="800" alt="image" src="https://github.com/aditichand/R-Project/assets/61296787/fec4d015-1b53-4024-91ce-bfdd71b4e930">
 
 
 
-<img width="500" alt="image" src="https://github.com/aditichand/R-Project/assets/61296787/1fbd750d-fe5d-41c4-aa0a-20393bc9f238"><br>
+<img width="800" alt="image" src="https://github.com/aditichand/R-Project/assets/61296787/1fbd750d-fe5d-41c4-aa0a-20393bc9f238"><br>
 _Tree Map Depicting Various sectors and industries with sectors scaled on their weight in the S&P500 INDEX._
 
 
@@ -67,19 +81,19 @@ This table tracks the index value of each working day for the last 10 years. It 
 ### K-Means Clustering
 The following results depict the optimal value for choosing K value using a spree plot and the clusters convex formed after choosing K =4. The stock symbols are used to represent its relative position in the cluster.
 
-<img width="400" alt="image" src="https://github.com/aditichand/R-Project/assets/61296787/05bfe3d4-1d5b-43d1-bf2e-27e157b56443">
-<img width="400" alt="image" src="https://github.com/aditichand/R-Project/assets/61296787/fa517aa0-4e72-4e31-93f1-975851016fc5">
+<img width="600" alt="image" src="https://github.com/aditichand/R-Project/assets/61296787/05bfe3d4-1d5b-43d1-bf2e-27e157b56443">
+<img width="600" alt="image" src="https://github.com/aditichand/R-Project/assets/61296787/fa517aa0-4e72-4e31-93f1-975851016fc5">
 
 ### K-Means Clustering Summary Statistics
 Post K- Means clustering, Cluster wise distribution of Annualized returns, Annualized Volatility, Sharpe ratio and Beta were plotted. It can be observed that there is a significant difference in at least two or more clusters both in terms of mean value and standard deviation.
 
-<img width="400" alt="image" src="https://github.com/aditichand/R-Project/assets/61296787/d2911c78-4a06-42ca-a556-21ffd7d8c028">
-<img width="400" alt="image" src="https://github.com/aditichand/R-Project/assets/61296787/9ae8ff6f-9ea9-48b0-8f60-46d1566b0ab7"><br>
-<img width="400" alt="image" src="https://github.com/aditichand/R-Project/assets/61296787/cc9f13d8-ca0e-455a-8f68-5f6ccbc99d4a">
-<img width="400" alt="image" src="https://github.com/aditichand/R-Project/assets/61296787/9bd3cd5a-e1f7-49ca-93da-ee17387dc7c0"><br>
+<img width="600" alt="image" src="https://github.com/aditichand/R-Project/assets/61296787/d2911c78-4a06-42ca-a556-21ffd7d8c028">
+<img width="600" alt="image" src="https://github.com/aditichand/R-Project/assets/61296787/9ae8ff6f-9ea9-48b0-8f60-46d1566b0ab7"><br>
+<img width="600" alt="image" src="https://github.com/aditichand/R-Project/assets/61296787/cc9f13d8-ca0e-455a-8f68-5f6ccbc99d4a">
+<img width="600" alt="image" src="https://github.com/aditichand/R-Project/assets/61296787/9bd3cd5a-e1f7-49ca-93da-ee17387dc7c0"><br>
 
 
-<img width="500" alt="image" src="https://github.com/aditichand/R-Project/assets/61296787/a63aeb96-5754-4622-850f-1c719e30383a">
+<img width="800" alt="image" src="https://github.com/aditichand/R-Project/assets/61296787/a63aeb96-5754-4622-850f-1c719e30383a">
 
 From the above plots, we observe vital information regarding the four clusters:<br>
 1.    Cluster 3 has the best performance in the market but has variable performance because of certain outliers and can be regarded as stocks with high returns and low volatility<br>
