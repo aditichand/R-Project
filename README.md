@@ -1,7 +1,7 @@
 # R-Project
 
 ## Creating a Diversified Stock Portfolio Using Clustering Analysis
-Disclaimer: This project was done in a team of 6 as the final deliverable for a Master's Level Business Analytics with R course. The dataset and case description were chosen by the team.
+_Disclaimer: This project was done in a team of 6 as the final deliverable for a Master's Level Business Analytics with R course. The dataset and case description were chosen by the team._
 
 # Table of Contents
 
